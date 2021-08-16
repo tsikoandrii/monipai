@@ -1,0 +1,482 @@
+<% var data = {
+  title: "Moni Pai - Home",
+}; %>
+
+<%= _.template(require('./../includes/header.html').default)(data) %>
+
+<div class="intro-block">
+  <div class="blur-bg"></div>
+  <div class="intro-block__bg">
+    <img style="width: 9.72%; left: 0px; top: 0px" src="img/bg/01.svg" alt="decor">
+
+    <img style="width: 6.73%; left: 177px; top: 216px;" src="img/bg/02.svg" alt="decor">
+    <img style="width: 4.65%; right: 270px; top: 17px;" src="img/bg/03.svg" src="img/bg/03.svg" alt="decor">
+
+    <img style="width: 11.40%; right: 0px; top: 6px" src="img/bg/04.svg" alt="decor">
+    <img style="width: 85.8%; bottom: 0; left: 50%; transform: translateX(-50%)" src="img/bg/fruits.png" alt="decor" class="fruits-bg">
+  </div>
+  <div class="container">
+    <h1 class="main-title">
+      YOU CAN <span class="red-text">SAVE</span> <span class="yellow-text">UP TO 50$</span><br>
+      ON AVERAGE SMART GROCERY SHOPPING
+    </h1>
+    <p class="intro-block__desc default-subtitle">
+      Plan your shopping, find cheapest grocery prices <br>
+      and save more.
+    </p>
+    <div class="search-bar">
+      <div class="search-bar__section">
+        <div class="search-bar__label">City</div>
+        <div class="search-bar__value">Hamilton</div>
+      </div>
+      <div class="search-bar__section">
+        <div class="search-bar__label">Region</div>
+        <div class="search-bar__value">Whitiora</div>
+      </div>
+      <div class="search-bar__section ">
+        <div class="map-button">
+          <img src="img/icons/map.svg" alt="open map" class="map-button__icon">
+          Find on the map
+        </div>
+      </div>
+      <div class="search-bar__section store-section">
+        <div class="search-bar__label">Store</div>
+        <div class="search-bar__store-list">
+          <img src="img/store/01.png" alt="logo">
+          <img src="img/store/04.png" alt="logo">
+        </div>
+      </div>
+      <div class="search-bar__section">
+        <div class="search-bar__button default-button decor-button">
+          Let's assemble the cart
+          <svg class="decor-button__arrow">
+            <use xlink:href="#arrow"></use>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="best-deals default-block">
+  <div class="container">
+    <h4 class="default-title">BEST GROCERY DEALS FOR KIWIS</h4>
+    <p class="default-subtitle">
+      Plan your shopping, find cheapest grocery prices and save more
+    </p>
+    <div class="swiper-container" id="deals">
+        <div class="swiper-wrapper deals">
+          <div class="swiper-slide deals__item deal">
+            <div class="deal__label">UP TO 50%</div>
+            <div class="deal__logotype">
+              <img src="img/store/01.png" alt="deal">
+            </div>
+            <div class="deal__title">PAK’nSAVE</div>
+            <div class="deal__count">
+              <span>321 products</span> with discounts
+            </div>
+          </div>
+
+          <div class="swiper-slide deals__item deal">
+            <div class="deal__label">UP TO 70%</div>
+            <div class="deal__logotype">
+              <img src="img/store/02.png" alt="deal">
+            </div>
+            <div class="deal__title">New World</div>
+            <div class="deal__count">
+              <span>321 products</span> with discounts
+            </div>
+          </div>
+
+          <div class="swiper-slide deals__item deal">
+            <div class="deal__label">UP TO 30%</div>
+            <div class="deal__logotype">
+              <img src="img/store/03.png" alt="deal">
+            </div>
+            <div class="deal__title">Countdown</div>
+            <div class="deal__count">
+              <span>321 products</span> with discounts
+            </div>
+          </div>
+
+          <div class="swiper-slide deals__item deal">
+            <div class="deal__label">UP TO 50%</div>
+            <div class="deal__logotype">
+              <img src="img/store/04.png" alt="deal">
+            </div>
+            <div class="deal__title">Farro</div>
+            <div class="deal__count">
+              <span>321 products</span> with discounts
+            </div>
+          </div>
+
+          <div class="swiper-slide deals__item deal">
+            <div class="deal__label">UP TO 45%</div>
+            <div class="deal__logotype">
+              <img src="img/store/05.png" alt="deal">
+            </div>
+            <div class="deal__title">FOUR SQUARE</div>
+            <div class="deal__count">
+              <span>321 products</span> with discounts
+            </div>
+          </div>
+        </div>
+      </div>
+
+  </div>
+</div>
+
+<div class="popular-sets default-block">
+  <div class="container">
+    <h4 class="default-title">Popular grocery sets</h4>
+    <p class="default-subtitle">
+      Products are shown by your location
+    </p>
+    <div class="swiper-container" id="sets">
+
+      <div class="swiper-wrapper popular-sets__items sets">
+
+        <div class="swiper-slide set popular-sets__item">
+          <div class="set__header">
+            <div class="set__image">
+              <img src="img/sets/02.png" alt="set">
+            </div>
+            <div class="set__title">Organic Fresh Drinks</div>
+            <div class="set__dealer">
+              <img src="img/store/01.png" alt="dealer">
+            </div>
+          </div>
+
+          <div class="set__composition">
+
+            <div class="set__component set-item">
+              <div class="set-item__image">
+                <img src="img/products/32.png" alt="set item">
+              </div>
+              <div class="set-item__title">Fresh Orange</div>
+              <div class="set-item__price">
+                <strong>$29.80</strong>/kg
+              </div>
+              <div class="break"></div>
+              <div class="set-item__label">
+                -25%
+              </div>
+            </div>
+
+            <div class="set__component set-item">
+              <div class="set-item__image">
+                <img src="img/products/33.png" alt="set item">
+              </div>
+              <div class="set-item__title">Fresh organic papaya (50gm)</div>
+              <div class="set-item__price">
+                <strong>$29.80</strong>/kg
+              </div>
+              <div class="break"></div>
+              <div class="set-item__label">
+                -25%
+              </div>
+            </div>
+
+            <div class="set__component set-item">
+              <div class="set-item__image">
+                <img src="img/products/20.png" alt="set item">
+              </div>
+              <div class="set-item__title">Red Apple</div>
+              <div class="set-item__price">
+                <strong>$29.80</strong>/kg
+              </div>
+              <div class="break"></div>
+              <div class="set-item__label">
+                -25%
+              </div>
+            </div>
+
+            <div class="set__component set-item">
+              <div class="set-item__image">
+                <img src="img/products/25.png" alt="set item">
+              </div>
+              <div class="set-item__title">Fresh Peach</div>
+              <div class="set-item__price">
+                <strong>$29.80</strong>/kg
+              </div>
+              <div class="break"></div>
+              <div class="set-item__label">
+                -25%
+              </div>
+            </div>
+
+            <div class="set__component set-item">
+              <div class="set-item__image">
+                <img src="img/products/22.png" alt="set item">
+              </div>
+              <div class="set-item__title">Cherry</div>
+              <div class="set-item__price">
+                <strong>$29.80</strong>/kg
+              </div>
+              <div class="break"></div>
+              <div class="set-item__label">
+                -25%
+              </div>
+            </div>
+
+            <div class="more-button">
+              +3 more
+              <svg>
+                <use xlink:href="#caret"></use>
+              </svg>
+            </div>
+          </div>
+
+          <div class="set__footer">
+            <div class="set__price-info">
+          <span class="set__discount">
+            SAVE <strong>$7.45</strong>
+          </span>
+              <span class="set__price">$149.00</span>
+            </div>
+            <button class="set__button default-button">
+              <svg>
+                <use xlink:href="#cart"></use>
+              </svg>
+              Add to cart
+            </button>
+          </div>
+        </div>
+
+        <div class="swiper-slide set popular-sets__item">
+          <div class="set__header">
+            <div class="set__image">
+              <img src="img/sets/01.png" alt="set">
+            </div>
+            <div class="set__title">Green salad </div>
+            <div class="set__dealer">
+              <img src="img/store/01.png" alt="dealer">
+            </div>
+          </div>
+
+          <div class="set__composition">
+
+            <div class="set__component set-item">
+              <div class="set-item__image">
+                <img src="img/products/04.png" alt="set item">
+              </div>
+              <div class="set-item__title">Cabbage</div>
+              <div class="set-item__price">
+                <strong>$29.80</strong>/kg
+              </div>
+              <div class="break"></div>
+              <div class="set-item__label">
+                -25%
+              </div>
+            </div>
+
+            <div class="set__component set-item">
+              <div class="set-item__image">
+                <img src="img/products/05.png" alt="set item">
+              </div>
+              <div class="set-item__title">Tomato</div>
+              <div class="set-item__price">
+                <strong>$29.80</strong>/kg
+              </div>
+              <div class="break"></div>
+              <div class="set-item__label">
+                -25%
+              </div>
+            </div>
+
+            <div class="set__component set-item">
+              <div class="set-item__image">
+                <img src="img/products/03.png" alt="set item">
+              </div>
+              <div class="set-item__title">Feta</div>
+              <div class="set-item__price">
+                <strong>$29.80</strong>/kg
+              </div>
+              <div class="break"></div>
+              <div class="set-item__label">
+                -25%
+              </div>
+            </div>
+
+            <div class="set__component set-item">
+              <div class="set-item__image">
+                <img src="img/products/02.png" alt="set item">
+              </div>
+              <div class="set-item__title">Moninni Classico Extra Vergine </div>
+              <div class="set-item__price">
+                <strong>$29.80</strong>/kg
+              </div>
+              <div class="break"></div>
+              <div class="set-item__label">
+                -25%
+              </div>
+            </div>
+
+            <div class="set__component set-item">
+              <div class="set-item__image">
+                <img src="img/products/06.png" alt="set item">
+              </div>
+              <div class="set-item__title">White Onion</div>
+              <div class="set-item__price">
+                <strong>$29.80</strong>/kg
+              </div>
+              <div class="break"></div>
+              <div class="set-item__label">
+                -25%
+              </div>
+            </div>
+
+            <div class="more-button">
+              +3 more
+              <svg>
+                <use xlink:href="#caret"></use>
+              </svg>
+            </div>
+          </div>
+
+          <div class="set__footer">
+            <div class="set__price-info">
+          <span class="set__discount">
+            SAVE <strong>$7.45</strong>
+          </span>
+              <span class="set__price">$149.00</span>
+            </div>
+            <button class="set__button default-button">
+              <svg>
+                <use xlink:href="#cart"></use>
+              </svg>
+              Add to cart
+            </button>
+          </div>
+        </div>
+
+        <div class="swiper-slide set popular-sets__item">
+          <div class="set__header">
+            <div class="set__image">
+              <img src="img/sets/02.png" alt="set">
+            </div>
+            <div class="set__title">Organic Fresh Drinks</div>
+            <div class="set__dealer">
+              <img src="img/store/01.png" alt="dealer">
+            </div>
+          </div>
+
+          <div class="set__composition">
+
+            <div class="set__component set-item">
+              <div class="set-item__image">
+                <img src="img/products/32.png" alt="set item">
+              </div>
+              <div class="set-item__title">Fresh Orange</div>
+              <div class="set-item__price">
+                <strong>$29.80</strong>/kg
+              </div>
+              <div class="break"></div>
+              <div class="set-item__label">
+                -25%
+              </div>
+            </div>
+
+            <div class="set__component set-item">
+              <div class="set-item__image">
+                <img src="img/products/33.png" alt="set item">
+              </div>
+              <div class="set-item__title">Fresh organic papaya (50gm)</div>
+              <div class="set-item__price">
+                <strong>$29.80</strong>/kg
+              </div>
+              <div class="break"></div>
+              <div class="set-item__label">
+                -25%
+              </div>
+            </div>
+
+            <div class="set__component set-item">
+              <div class="set-item__image">
+                <img src="img/products/20.png" alt="set item">
+              </div>
+              <div class="set-item__title">Red Apple</div>
+              <div class="set-item__price">
+                <strong>$29.80</strong>/kg
+              </div>
+              <div class="break"></div>
+              <div class="set-item__label">
+                -25%
+              </div>
+            </div>
+
+            <div class="set__component set-item">
+              <div class="set-item__image">
+                <img src="img/products/25.png" alt="set item">
+              </div>
+              <div class="set-item__title">Fresh Peach</div>
+              <div class="set-item__price">
+                <strong>$29.80</strong>/kg
+              </div>
+              <div class="break"></div>
+              <div class="set-item__label">
+                -25%
+              </div>
+            </div>
+
+            <div class="set__component set-item">
+              <div class="set-item__image">
+                <img src="img/products/22.png" alt="set item">
+              </div>
+              <div class="set-item__title">Cherry</div>
+              <div class="set-item__price">
+                <strong>$29.80</strong>/kg
+              </div>
+              <div class="break"></div>
+              <div class="set-item__label">
+                -25%
+              </div>
+            </div>
+
+            <div class="more-button">
+              +3 more
+              <svg>
+                <use xlink:href="#caret"></use>
+              </svg>
+            </div>
+          </div>
+
+          <div class="set__footer">
+            <div class="set__price-info">
+          <span class="set__discount">
+            SAVE <strong>$7.45</strong>
+          </span>
+              <span class="set__price">$149.00</span>
+            </div>
+            <button class="set__button default-button">
+              <svg>
+                <use xlink:href="#cart"></use>
+              </svg>
+              Add to cart
+            </button>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<div class="pre-footer">
+  <div class="container">
+    <p class="pre-footer__text">
+      The site will help you choose the most optimal food cart
+    </p>
+    <a href="#" class="pre-footer__button default-button decor-button">
+      Food Search
+      <svg class="decor-button__arrow">
+        <use xlink:href="#arrow"></use>
+      </svg>
+    </a>
+  </div>
+</div>
+
+<%= _.template(require('./../includes/sprites.html').default)(data) %>
+<%= _.template(require('./../includes/popups.html').default)(data) %>
+<%= _.template(require('./../includes/footer.html').default)(data) %>

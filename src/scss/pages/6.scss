@@ -1,0 +1,93 @@
+.product-block {
+  padding: 40px 0px;
+  .container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: row;
+    @media screen and (max-width: 640px) {
+      flex-direction: column;
+    }
+  }
+  &__first-col {
+    width: 35.15%;
+    @media screen and (max-width: 640px) {
+      width: 100%;
+      margin-bottom: 16px;
+    }
+  }
+  &__second-col {
+    width: 61.71%;
+    @media screen and (max-width: 640px) {
+      width: 100%;
+    }
+  }
+  // First Column
+  &__logotype {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 430px;
+    background: #F8F8F8;
+    border-radius: 1.7%;
+    margin-bottom: 16px;
+    position: relative;
+    overflow: hidden;
+    @media screen and (max-width: $laptopS) {
+      height: 300px;
+    }
+    @media screen and (max-width: 640px) {
+      height: 200px;
+      margin-bottom: 8px;
+      img {
+        width: auto;
+        height: 100%;
+      }
+    }
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+  &__prefs {
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    display: flex;
+    flex-direction: column;
+    @media screen and (max-width: $tablet) {
+      top: 8px;
+      left: 8px;
+    }
+    img {
+      width: 40px;
+      height: 40px;
+      margin-bottom: 8px;
+    }
+  }
+  &__title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 33px;
+    letter-spacing: 0.385714px;
+    color: #353535;
+    margin-bottom: 20px;
+    @media screen and (max-width: $laptopM) {
+      font-size: 18px;
+      line-height: 25px;
+      margin-bottom: 16px;
+    }
+  }
+  &__offers {
+    .offer {
+      margin-bottom: 12px;
+      @media screen and (max-width: $laptopM) {
+        margin-bottom: 8px;
+      }
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+}

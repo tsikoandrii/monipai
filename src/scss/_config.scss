@@ -1,0 +1,129 @@
+// Colors
+$accent: #E12020;
+$text-color: #353535;
+$grey-text: #6C7584;
+$bg: #F8F8F8;
+
+$yellow: #FFB526;
+$green: #5FA800;
+
+// Fonts
+$font: 'Open Sans';
+
+// Resolutions
+$desktop: 1920px;
+$laptopL: 1440px;
+$laptopM: 1320px;
+$laptopS: 1060px;
+$tablet: 800px;
+$mobileL: 475px;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: $font, sans-serif;
+  color: $text-color;
+}
+
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  @media screen and (max-width: $laptopM) {
+    max-width: 1024px;
+  }
+  @media screen and (max-width: $laptopS) {
+    max-width: 768px;
+  }
+  @media screen and (max-width: $tablet) {
+    max-width: none;
+    padding: 0 16px;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: $text-color;
+}
+
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  outline: white;
+}
+
+mark {
+  background: none;
+  color: $text-color;
+}
+
+// Structure Styles
+.default-block {
+  padding-top: 40px;
+  @media screen and (max-width: $tablet) {
+
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .default-title {
+    margin-bottom: 16px;
+  }
+  .default-subtitle {
+    margin-bottom: 40px;
+    @media screen and (max-width: $tablet) {
+      margin-bottom: 16px;
+    }
+  }
+}
+
+// Fix Slider Shadow
+
+.slider {
+  overflow: hidden;
+  margin: -100px;
+  padding: 100px;
+  align-self: flex-start;
+}
+
+.swiper-container {
+  overflow: unset !important;
+  width: 100% !important;
+  height: 100%;
+}
+
+// Scrollbar
+::-webkit-scrollbar {
+  width: 16px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(217, 223, 236, 0.5);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #D1D7E2;
+  border-radius: 3px;
+  transition: background 0.1s;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #888;
+}

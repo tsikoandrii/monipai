@@ -1,0 +1,18 @@
+// Libraries
+@import "~@node_modules/normalize.css/normalize.css";
+
+// Main Files
+@import "config";
+@import "ui";
+
+// Modules
+@import 'modules/header.scss';
+@import 'modules/footer.scss';
+
+// Pages
+@import 'pages/index.scss';
+@import 'pages/2.scss';
+@import 'pages/3.scss';
+@import 'pages/4.scss';
+@import 'pages/6.scss';
+

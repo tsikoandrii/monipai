@@ -1,0 +1,364 @@
+<% var data = {
+title: "Moni Pai - 2",
+}; %>
+
+<%= _.template(require('./../includes/header.html').default)(data) %>
+
+<div class="intro-block with-search">
+    <div class="blur-bg"></div>
+    <div class="container">
+        <div class="breadcrumbs">
+            <a href="/" class="breadcrumbs__item">
+                <svg>
+                    <use xlink:href="#home"></use>
+                </svg>
+                Home
+            </a>
+            <a href="#" class="breadcrumbs__item">
+                Products
+            </a>
+        </div>
+        <h1 class="main-title">
+            <span class="yellow-text">SELECT</span> WHAT YOU NEED <span class="red-text">TO BUY</span>
+        </h1>
+        <div class="search-bar without-btn">
+            <div class="search-bar__section">
+                <div class="search-bar__label">City</div>
+                <div class="search-bar__value">Hamilton</div>
+            </div>
+            <div class="search-bar__section">
+                <div class="search-bar__label">Region</div>
+                <div class="search-bar__value">Whitiora</div>
+            </div>
+            <div class="search-bar__section ">
+                <div class="map-button">
+                    <img src="img/icons/map.svg" alt="open map" class="map-button__icon">
+                    Find on the map
+                </div>
+            </div>
+            <div class="search-bar__section store-section">
+                <div class="search-bar__label">Store</div>
+                <div class="search-bar__store-list">
+                    <img src="img/store/01.png" alt="logo">
+                    <img src="img/store/04.png" alt="logo">
+                </div>
+            </div>
+        </div>
+        <div class="search">
+            <label>
+                <svg class="search__icon">
+                    <use xlink:href="#loupe"></use>
+                </svg>
+                <input class="search__input" type="text" placeholder="Keyword, e.g: Applese">
+            </label>
+            <button class="search__button default-button">
+                <span>SEARCH</span>
+                <svg class="mb-search-icon">
+                    <use xlink:href="#loupe"></use>
+                </svg>
+            </button>
+        </div>
+    </div>
+</div>
+
+<div class="categories-block default-block">
+    <div class="container">
+        <h4 class="default-title">OR FIND IN CATEGORIES</h4>
+
+        <div class="categories-block__list">
+
+            <div class="categories-block__item category">
+                <div class="category__image">
+                    <img src="img/products/01.png" alt="category">
+                </div>
+                <span class="category__title">Fresh foods</span>
+                <div class="category__label">
+                    5 items
+                </div>
+            </div>
+
+            <div class="categories-block__item category">
+                <div class="category__image">
+                    <img src="img/products/07.png" alt="category">
+                </div>
+                <span class="category__title">Chilled & frozen</span>
+                <div class="category__label">
+                    5 items
+                </div>
+            </div>
+
+            <div class="categories-block__item category">
+                <div class="category__image">
+                    <img src="img/products/09.png" alt="category">
+                </div>
+                <span class="category__title">Pantry</span>
+                <div class="category__label">
+                    5 items
+                </div>
+            </div>
+
+            <div class="categories-block__item category">
+                <div class="category__image">
+                    <img src="img/products/10.png" alt="category">
+                </div>
+                <span class="category__title">Drinks</span>
+                <div class="category__label">
+                    5 items
+                </div>
+            </div>
+
+            <div class="categories-block__item category">
+                <div class="category__image">
+                    <img src="img/products/11.png" alt="category">
+                </div>
+                <span class="category__title">Desserts</span>
+                <div class="category__label">
+                    5 items
+                </div>
+            </div>
+
+            <div class="categories-block__item category">
+                <div class="category__image">
+                    <img src="img/products/12.png" alt="category">
+                </div>
+                <span class="category__title">Bakery</span>
+                <div class="category__label">
+                    5 items
+                </div>
+            </div>
+
+            <div class="categories-block__item category">
+                <div class="category__image">
+                    <img src="img/products/31.png" alt="category">
+                </div>
+                <span class="category__title">Baby & kids</span>
+                <div class="category__label">
+                    5 items
+                </div>
+            </div>
+
+            <div class="categories-block__item category">
+                <div class="category__image">
+                    <img src="img/products/13.png" alt="category">
+                </div>
+                <span class="category__title">Pets</span>
+                <div class="category__label">
+                    5 items
+                </div>
+            </div>
+
+            <div class="categories-block__item category">
+                <div class="category__image">
+                    <img src="img/products/14.png" alt="category">
+                </div>
+                <span class="category__title">Personal care</span>
+                <div class="category__label">
+                    5 items
+                </div>
+            </div>
+
+            <div class="categories-block__item category">
+                <div class="category__image">
+                    <img src="img/products/15.png" alt="category">
+                </div>
+                <span class="category__title">Kitchen, dinning & household</span>
+                <div class="category__label">
+                    5 items
+                </div>
+            </div>
+
+            <div class="categories-block__item category">
+                <div class="category__image">
+                    <img src="img/products/16.png" alt="category">
+                </div>
+                <span class="category__title">Fast food</span>
+                <div class="category__label">
+                    5 items
+                </div>
+            </div>
+
+            <div class="categories-block__item category">
+                <div class="category__image">
+                    <img src="img/products/17.png" alt="category">
+                </div>
+                <span class="category__title">Meat & Fish</span>
+                <div class="category__label">
+                    5 items
+                </div>
+            </div>
+
+            <div class="categories-block__item category">
+                <div class="category__image">
+                    <img src="img/products/18.png" alt="category">
+                </div>
+                <span class="category__title">Flour  & Cereals</span>
+                <div class="category__label">
+                    5 items
+                </div>
+            </div>
+
+            <div class="categories-block__item category">
+                <div class="category__image">
+                    <img src="img/products/19.png" alt="category">
+                </div>
+                <span class="category__title">Sauces</span>
+                <div class="category__label">
+                    5 items
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+<div class="products-block default-block">
+    <div class="container">
+        <p class="mini-title">the most popular products</p>
+        <div class="products">
+
+            <div class="product">
+                <div class="product__image">
+                    <img src="img/products/20.png" alt="product">
+                    <div class="product__discount">
+                        <span>SAVE <strong>$7.45</strong></span>
+                        <div class="product__label">-25%</div>
+                    </div>
+                </div>
+                <div class="product__info">
+                    <div class="product__title">Red Apple</div>
+                    <div class="product__price">
+                        <span>$29.80/kg</span>
+                        <div class="s">
+                            <s>$37.25/kg</s>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="product__button default-button cart-button">
+                    <svg>
+                        <use xlink:href="#cart"></use>
+                    </svg>
+                    Add to cart
+                </a>
+            </div>
+
+            <div class="product">
+                <div class="product__image">
+                    <img src="img/products/30.png" alt="product">
+                    <div class="product__discount">
+                        SAVE &nbsp; <strong> $7.45</strong>
+                        <div class="product__label">-25%</div>
+                    </div>
+                </div>
+                <div class="product__info">
+                    <div class="product__title">Green Apple</div>
+                    <div class="product__price">
+                        <span>$29.80/kg</span>
+                        <div class="s">
+                            <s>$37.25/kg</s>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="product__button default-button cart-button">
+                    <svg>
+                        <use xlink:href="#cart"></use>
+                    </svg>
+                    Add to cart
+                </a>
+            </div>
+
+            <div class="product">
+                <div class="product__image">
+                    <img src="img/products/29.png" alt="product">
+                    <div class="product__discount">
+                        <span>SAVE <strong>$7.45</strong></span>
+                        <div class="product__label">-25%</div>
+                    </div>
+                    <div class="product__prefs">
+                        <img class="product-block__pref" src="img/prefs/01.svg" alt="pref">
+                        <img class="product-block__pref" src="img/prefs/02.svg" alt="pref">
+                    </div>
+                </div>
+                <div class="product__info">
+                    <div class="product__title">Organic Green Apple</div>
+                    <div class="product__price">
+                        <span>$29.80/kg</span>
+                        <div class="s">
+                            <s>$37.25/kg</s>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="product__button default-button cart-button">
+                    <svg>
+                        <use xlink:href="#cart"></use>
+                    </svg>
+                    Add to cart
+                </a>
+            </div>
+
+            <div class="product">
+                <div class="product__image">
+                    <img src="img/products/28.png" alt="product">
+                    <div class="product__discount">
+                        <span>SAVE <strong>$7.45</strong></span>
+                        <div class="product__label">-25%</div>
+                    </div>
+                </div>
+                <div class="product__info">
+                    <div class="product__title">Red Apple</div>
+                    <div class="product__price">
+                        <span>$29.80/kg</span>
+                        <div class="s">
+                            <s>$37.25/kg</s>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="product__button default-button cart-button">
+                    <svg>
+                        <use xlink:href="#cart"></use>
+                    </svg>
+                    Add to cart
+                </a>
+            </div>
+
+            <div class="product">
+                <div class="product__image">
+                    <img src="img/products/27.png" alt="product">
+                    <div class="product__discount">
+                        <span>SAVE <strong>$7.45</strong></span>
+                        <div class="product__label">-25%</div>
+                    </div>
+                    <div class="product__prefs">
+                        <img class="product-block__pref" src="img/prefs/01.svg" alt="pref">
+                    </div>
+                </div>
+                <div class="product__info">
+                    <div class="product__title">Organic Red Apple</div>
+                    <div class="product__price">
+                        <span>$29.80/kg</span>
+                        <div class="s">
+                            <s>$37.25/kg</s>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="product__button default-button cart-button">
+                    <svg>
+                        <use xlink:href="#cart"></use>
+                    </svg>
+                    Add to cart
+                </a>
+            </div>
+
+        </div>
+        <div class="more-button db-more">
+            More Products
+            <svg>
+                <use xlink:href="#caret"></use>
+            </svg>
+        </div>
+    </div>
+</div>
+
+<%= _.template(require('./../includes/sprites.html').default)(data) %>
+<%= _.template(require('./../includes/popups.html').default)(data) %>
+<%= _.template(require('./../includes/footer.html').default)(data) %>

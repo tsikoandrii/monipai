@@ -1,0 +1,36 @@
+.footer {
+  background: #2E364B;
+  padding: 16px;
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    @media screen and (max-width: $tablet) {
+      flex-direction: column-reverse;
+    }
+  }
+  &__copyright {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.589285px;
+    color: #FFFFFF;
+  }
+  &__payments {
+    display: flex;
+    align-items: center;
+    @media screen and (max-width: $tablet) {
+      margin-bottom: 16px;
+    }
+    img {
+      width: 60px;
+      margin-right: 8px;
+      &:last-child {
+        margin-right: 0;
+      }
+
+
+    }
+  }
+}

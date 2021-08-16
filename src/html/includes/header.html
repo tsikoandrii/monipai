@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <link rel="shortcut icon" href="favicon/favicon.ico" />
+    <link rel="stylesheet" href="css/style.bundle.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <title><%=title%></title>
+  </head>
+  <body>
+
+    <div class="backdrop"></div>
+
+    <header class="header">
+      <div class="container">
+        <div class="mb-burger">
+          <svg>
+            <use xlink:href="#mb-burger"></use>
+          </svg>
+        </div>
+        <div class="mb-current-page">Home</div>
+
+        <div class="header__wrapper mb-menu">
+          <div class="mb-close-button">
+            <svg>
+              <use xlink:href="#close"></use>
+            </svg>
+          </div>
+          <a href="/" class="header__logotype">
+            <img src="img/logotype.png" alt="logotype"/>
+          </a>
+          <nav class="header__nav nav">
+            <a href="#" class="nav__link">Home</a>
+            <a href="#" class="nav__link">Products</a>
+            <a href="#" class="nav__link">My Lists</a>
+            <a href="#" class="nav__link">Sales & Discounts</a>
+          </nav>
+        </div>
+
+        <a href="#" class="header__cart cart-label">
+          <svg class="cart-label__icon">
+            <use xlink:href="#cart"></use>
+          </svg>
+          <div class="cart-label__count"><mark>2</mark> <span>item</span> </div>
+        </a>
+        <a href="#" class="header__account-button">Sign In</a>
+        <div class="mb-account-button">
+          <svg>
+            <use xlink:href="#mb-account-icon"></use>
+          </svg>
+        </div>
+      </div>
+    </header>

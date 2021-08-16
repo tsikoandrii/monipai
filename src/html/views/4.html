@@ -1,0 +1,560 @@
+<% var data = {
+title: "Moni Pai - 4",
+}; %>
+
+<%= _.template(require('./../includes/header.html').default)(data) %>
+
+<div class="lists-block default-block">
+    <div class="container">
+        <div class="breadcrumbs">
+            <a href="/" class="breadcrumbs__item">
+                <svg>
+                    <use xlink:href="#home"></use>
+                </svg>
+                Home
+            </a>
+            <a href="#" class="breadcrumbs__item">
+                Cart
+            </a>
+        </div>
+        <div class="swiper-container" id="lists">
+            <div class="swiper-wrapper lists">
+                <div class="set list swiper-slide">
+                    <div class="set__header list__header">
+                        <div class="set__image">
+                            <img src="img/sets/02.png" alt="product">
+                        </div>
+                        <div class="set__title list__title">Organic Fresh Drinks</div>
+                        <button class="list__more">
+                            <svg>
+                                <use xlink:href="#more-icon"></use>
+                            </svg>
+                        </button>
+                    </div>
+
+                    <div class="list__notices">
+                        <div class="list__notice">todays cheapest price</div>
+                        <div class="list__notice">todays cheapest place</div>
+                    </div>
+
+                    <div class="set__composition">
+
+                        <div class="list__item">
+                            <div class="set__component set-item">
+                                <div class="set-item__image">
+                                    <img src="img/products/32.png" alt="set item">
+                                </div>
+                                <div class="set-item__title">Fresh Orange</div>
+                                <div class="set-item__price">
+                                    <strong>$29.80</strong>/kg
+                                </div>
+                                <div class="break"></div>
+                                <div class="set-item__label">
+                                    -25%
+                                </div>
+                            </div>
+                            <div class="list__sub-item">
+                                <div class="store-info__logotype">
+                                    <img src="img/store/01.png" alt="">
+                                </div>
+                                <div class="store-info__wrapper">
+                                    <p class="store-info__title">PAK’nSAVE</p>
+                                    <p class="store-info__save">
+                                        SAVE <strong>$7.45</strong>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="list__item">
+                            <div class="set__component set-item">
+                                <div class="set-item__image">
+                                    <img src="img/products/33.png" alt="set item">
+                                </div>
+                                <div class="set-item__title">Fresh organic papaya (50gm)</div>
+                                <div class="set-item__price">
+                                    <strong>$29.80</strong>/kg
+                                </div>
+                                <div class="break"></div>
+                                <div class="set-item__label">
+                                    -25%
+                                </div>
+                            </div>
+                            <div class="list__sub-item">
+                                <div class="store-info__logotype">
+                                    <img src="img/store/04.png" alt="">
+                                </div>
+                                <div class="store-info__wrapper">
+                                    <p class="store-info__title">farro</p>
+                                    <p class="store-info__save">
+                                        SAVE <strong>$7.45</strong>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="list__item">
+                            <div class="set__component set-item">
+                                <div class="set-item__image">
+                                    <img src="img/products/20.png" alt="set item">
+                                </div>
+                                <div class="set-item__title">Red Apple</div>
+                                <div class="set-item__price">
+                                    <strong>$29.80</strong>/kg
+                                </div>
+                                <div class="break"></div>
+                                <div class="set-item__label">
+                                    -25%
+                                </div>
+                            </div>
+                            <div class="list__sub-item">
+                                <div class="store-info__logotype">
+                                    <img src="img/store/02-2.png" alt="">
+                                </div>
+                                <div class="store-info__wrapper">
+                                    <p class="store-info__title">New World</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="list__item">
+                            <div class="set__component set-item">
+                                <div class="set-item__image">
+                                    <img src="img/products/25.png" alt="set item">
+                                </div>
+                                <div class="set-item__title">Fresh Peach</div>
+                                <div class="set-item__price">
+                                    <strong>$29.80</strong>/kg
+                                </div>
+                                <div class="break"></div>
+                                <div class="set-item__label">
+                                    -25%
+                                </div>
+                            </div>
+                            <div class="list__sub-item">
+                                <div class="store-info__logotype">
+                                    <img src="img/store/01.png" alt="">
+                                </div>
+                                <div class="store-info__wrapper">
+                                    <p class="store-info__title">PAK’nSAVE</p>
+                                    <p class="store-info__save">
+                                        SAVE <strong>$7.45</strong>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="list__item">
+                            <div class="set__component set-item">
+                                <div class="set-item__image">
+                                    <img src="img/products/22.png" alt="set item">
+                                </div>
+                                <div class="set-item__title">Cherry</div>
+                                <div class="set-item__price">
+                                    <strong>$29.80</strong>/kg
+                                </div>
+                                <div class="break"></div>
+                                <div class="set-item__label">
+                                    -25%
+                                </div>
+                            </div>
+                            <div class="list__sub-item">
+                                <div class="store-info__logotype">
+                                    <img src="img/store/01.png" alt="">
+                                </div>
+                                <div class="store-info__wrapper">
+                                    <p class="store-info__title">PAK’nSAVE</p>
+                                    <p class="store-info__save">
+                                        SAVE <strong>$7.45</strong>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="set__footer list__footer">
+                        <div class="set__price-info">
+                            <div class="more-button">
+                                +3 more
+                                <svg>
+                                    <use xlink:href="#caret"></use>
+                                </svg>
+                            </div>
+                            <span class="set__price list__price">
+                            <span>$149.00</span>
+                            <span class="s">
+                                $164.00
+                            </span>
+                        </span>
+                        </div>
+                        <button class="set__button default-button">
+                            <svg>
+                                <use xlink:href="#cart"></use>
+                            </svg>
+                            Add to cart
+                        </button>
+                    </div>
+                </div>
+                <div class="set list swiper-slide">
+                    <div class="set__header list__header">
+                        <div class="set__image">
+                            <img src="img/sets/01.png" alt="product">
+                        </div>
+                        <div class="set__title list__title">Green salad</div>
+                        <button class="list__more">
+                            <svg>
+                                <use xlink:href="#more-icon"></use>
+                            </svg>
+                        </button>
+                    </div>
+
+                    <div class="list__notices">
+                        <div class="list__notice">todays cheapest price</div>
+                        <div class="list__notice">todays cheapest place</div>
+                    </div>
+
+                    <div class="set__composition">
+
+                        <div class="list__item">
+                            <div class="set__component set-item">
+                                <div class="set-item__image">
+                                    <img src="img/products/04.png" alt="set item">
+                                </div>
+                                <div class="set-item__title">Cabbage</div>
+                                <div class="set-item__price">
+                                    <strong>$29.80</strong>/kg
+                                </div>
+                                <div class="break"></div>
+                                <div class="set-item__label">
+                                    -25%
+                                </div>
+                            </div>
+                            <div class="list__sub-item">
+                                <div class="store-info__logotype">
+                                    <img src="img/store/01.png" alt="">
+                                </div>
+                                <div class="store-info__wrapper">
+                                    <p class="store-info__title">PAK’nSAVE</p>
+                                    <p class="store-info__save">
+                                        SAVE <strong>$7.45</strong>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="list__item">
+                            <div class="set__component set-item">
+                                <div class="set-item__image">
+                                    <img src="img/products/05.png" alt="set item">
+                                </div>
+                                <div class="set-item__title">Tomato</div>
+                                <div class="set-item__price">
+                                    <strong>$29.80</strong>/kg
+                                </div>
+                                <div class="break"></div>
+                                <div class="set-item__label">
+                                    -25%
+                                </div>
+                            </div>
+                            <div class="list__sub-item">
+                                <div class="store-info__logotype">
+                                    <img src="img/store/04.png" alt="">
+                                </div>
+                                <div class="store-info__wrapper">
+                                    <p class="store-info__title">farro</p>
+                                    <p class="store-info__save">
+                                        SAVE <strong>$7.45</strong>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="list__item">
+                            <div class="set__component set-item">
+                                <div class="set-item__image">
+                                    <img src="img/products/03.png" alt="set item">
+                                </div>
+                                <div class="set-item__title">Feta</div>
+                                <div class="set-item__price">
+                                    <strong>$29.80</strong>/kg
+                                </div>
+                                <div class="break"></div>
+                                <div class="set-item__label">
+                                    -25%
+                                </div>
+                            </div>
+                            <div class="list__sub-item">
+                                <div class="store-info__logotype">
+                                    <img src="img/store/02-2.png" alt="">
+                                </div>
+                                <div class="store-info__wrapper">
+                                    <p class="store-info__title">New World</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="list__item">
+                            <div class="set__component set-item">
+                                <div class="set-item__image">
+                                    <img src="img/products/02.png" alt="set item">
+                                </div>
+                                <div class="set-item__title">Moninni Classico Extra Vergine </div>
+                                <div class="set-item__price">
+                                    <strong>$29.80</strong>/kg
+                                </div>
+                                <div class="break"></div>
+                                <div class="set-item__label">
+                                    -25%
+                                </div>
+                            </div>
+                            <div class="list__sub-item">
+                                <div class="store-info__logotype">
+                                    <img src="img/store/01.png" alt="">
+                                </div>
+                                <div class="store-info__wrapper">
+                                    <p class="store-info__title">PAK’nSAVE</p>
+                                    <p class="store-info__save">
+                                        SAVE <strong>$7.45</strong>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="list__item">
+                            <div class="set__component set-item">
+                                <div class="set-item__image">
+                                    <img src="img/products/06.png" alt="set item">
+                                </div>
+                                <div class="set-item__title">White Onion</div>
+                                <div class="set-item__price">
+                                    <strong>$29.80</strong>/kg
+                                </div>
+                                <div class="break"></div>
+                                <div class="set-item__label">
+                                    -25%
+                                </div>
+                            </div>
+                            <div class="list__sub-item">
+                                <div class="store-info__logotype">
+                                    <img src="img/store/01.png" alt="">
+                                </div>
+                                <div class="store-info__wrapper">
+                                    <p class="store-info__title">PAK’nSAVE</p>
+                                    <p class="store-info__save">
+                                        SAVE <strong>$7.45</strong>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="set__footer list__footer">
+                        <div class="set__price-info">
+                            <div class="more-button">
+                                +3 more
+                                <svg>
+                                    <use xlink:href="#caret"></use>
+                                </svg>
+                            </div>
+                            <span class="set__price list__price">
+                            <span>$149.00</span>
+                            <span class="s">
+                                $164.00
+                            </span>
+                        </span>
+                        </div>
+                        <button class="set__button default-button">
+                            <svg>
+                                <use xlink:href="#cart"></use>
+                            </svg>
+                            Add to cart
+                        </button>
+                    </div>
+                </div>
+                <div class="set list swiper-slide">
+                    <div class="set__header list__header">
+                        <div class="set__image">
+                            <img src="img/sets/my-list.svg" alt="product">
+                        </div>
+                        <div class="set__title list__title">My list</div>
+                        <button class="list__more">
+                            <svg>
+                                <use xlink:href="#more-icon"></use>
+                            </svg>
+                        </button>
+                    </div>
+
+                    <div class="list__notices">
+                        <div class="list__notice">todays cheapest price</div>
+                        <div class="list__notice">todays cheapest place</div>
+                    </div>
+
+                    <div class="set__composition">
+
+                        <div class="list__item">
+                            <div class="set__component set-item">
+                                <div class="set-item__image">
+                                    <img src="img/products/32.png" alt="set item">
+                                </div>
+                                <div class="set-item__title">Fresh Orange</div>
+                                <div class="set-item__price">
+                                    <strong>$29.80</strong>/kg
+                                </div>
+                                <div class="break"></div>
+                                <div class="set-item__label">
+                                    -25%
+                                </div>
+                            </div>
+                            <div class="list__sub-item">
+                                <div class="store-info__logotype">
+                                    <img src="img/store/01.png" alt="">
+                                </div>
+                                <div class="store-info__wrapper">
+                                    <p class="store-info__title">PAK’nSAVE</p>
+                                    <p class="store-info__save">
+                                        SAVE <strong>$7.45</strong>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="list__item">
+                            <div class="set__component set-item">
+                                <div class="set-item__image">
+                                    <img src="img/products/33.png" alt="set item">
+                                </div>
+                                <div class="set-item__title">Fresh organic papaya (50gm)</div>
+                                <div class="set-item__price">
+                                    <strong>$29.80</strong>/kg
+                                </div>
+                                <div class="break"></div>
+                                <div class="set-item__label">
+                                    -25%
+                                </div>
+                            </div>
+                            <div class="list__sub-item">
+                                <div class="store-info__logotype">
+                                    <img src="img/store/04.png" alt="">
+                                </div>
+                                <div class="store-info__wrapper">
+                                    <p class="store-info__title">farro</p>
+                                    <p class="store-info__save">
+                                        SAVE <strong>$7.45</strong>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="list__item">
+                            <div class="set__component set-item">
+                                <div class="set-item__image">
+                                    <img src="img/products/20.png" alt="set item">
+                                </div>
+                                <div class="set-item__title">Red Apple</div>
+                                <div class="set-item__price">
+                                    <strong>$29.80</strong>/kg
+                                </div>
+                                <div class="break"></div>
+                                <div class="set-item__label">
+                                    -25%
+                                </div>
+                            </div>
+                            <div class="list__sub-item">
+                                <div class="store-info__logotype">
+                                    <img src="img/store/02-2.png" alt="">
+                                </div>
+                                <div class="store-info__wrapper">
+                                    <p class="store-info__title">New World</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="list__item">
+                            <div class="set__component set-item">
+                                <div class="set-item__image">
+                                    <img src="img/products/25.png" alt="set item">
+                                </div>
+                                <div class="set-item__title">Fresh Peach</div>
+                                <div class="set-item__price">
+                                    <strong>$29.80</strong>/kg
+                                </div>
+                                <div class="break"></div>
+                                <div class="set-item__label">
+                                    -25%
+                                </div>
+                            </div>
+                            <div class="list__sub-item">
+                                <div class="store-info__logotype">
+                                    <img src="img/store/01.png" alt="">
+                                </div>
+                                <div class="store-info__wrapper">
+                                    <p class="store-info__title">PAK’nSAVE</p>
+                                    <p class="store-info__save">
+                                        SAVE <strong>$7.45</strong>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="list__item">
+                            <div class="set__component set-item">
+                                <div class="set-item__image">
+                                    <img src="img/products/22.png" alt="set item">
+                                </div>
+                                <div class="set-item__title">Cherry</div>
+                                <div class="set-item__price">
+                                    <strong>$29.80</strong>/kg
+                                </div>
+                                <div class="break"></div>
+                                <div class="set-item__label">
+                                    -25%
+                                </div>
+                            </div>
+                            <div class="list__sub-item">
+                                <div class="store-info__logotype">
+                                    <img src="img/store/01.png" alt="">
+                                </div>
+                                <div class="store-info__wrapper">
+                                    <p class="store-info__title">PAK’nSAVE</p>
+                                    <p class="store-info__save">
+                                        SAVE <strong>$7.45</strong>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="set__footer list__footer">
+                        <div class="set__price-info">
+                            <div class="more-button">
+                                +3 more
+                                <svg>
+                                    <use xlink:href="#caret"></use>
+                                </svg>
+                            </div>
+                            <span class="set__price list__price">
+                            <span>$149.00</span>
+                            <span class="s">
+                                $164.00
+                            </span>
+                        </span>
+                        </div>
+                        <button class="set__button default-button">
+                            <svg>
+                                <use xlink:href="#cart"></use>
+                            </svg>
+                            Add to cart
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<%= _.template(require('./../includes/sprites.html').default)(data) %>
+<%= _.template(require('./../includes/popups.html').default)(data) %>
+<%= _.template(require('./../includes/footer.html').default)(data) %>
