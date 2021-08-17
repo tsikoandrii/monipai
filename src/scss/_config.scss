@@ -109,21 +109,22 @@ mark {
 }
 
 // Scrollbar
-::-webkit-scrollbar {
-  width: 16px;
-}
 
-::-webkit-scrollbar-track {
-  background: rgba(217, 223, 236, 0.5);
-  border-radius: 3px;
-}
-
-::-webkit-scrollbar-thumb {
-  background: #D1D7E2;
-  border-radius: 3px;
-  transition: background 0.1s;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: #888;
-}
+//::-webkit-scrollbar {
+//  width: 16px;
+//}
+//
+//::-webkit-scrollbar-track {
+//  background: rgba(217, 223, 236, 0.5);
+//  border-radius: 3px;
+//}
+//
+//::-webkit-scrollbar-thumb {
+//  background: #D1D7E2;
+//  border-radius: 3px;
+//  transition: background 0.1s;
+//}
+//
+//::-webkit-scrollbar-thumb:hover {
+//  background: #888;
+//}
